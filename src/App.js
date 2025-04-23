@@ -26,7 +26,7 @@ const App = () => {
     }
     fetchData();
   },[])
-  return (<div className="min-h-screen flex flex-col">
+  return (<div className="min-h-screen flex flex-col bg-bgDark2">
     <div><Navbar/></div>
     <div className="bg-bgDark2">
     <div><Filter filterData={filterData} category ={category} setCategory={setCategory} /></div>
